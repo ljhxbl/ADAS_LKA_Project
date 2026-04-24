@@ -1,0 +1,15 @@
+# 排除大型文件夹
+data/
+outputs/
+venv/
+.idea/
+
+# 排除残留的二进制文件
+*.mp4
+*.avi
+*.msi
+*.exe
+
+# 排除 Python 缓存
+__pycache__/
+*.pyc
